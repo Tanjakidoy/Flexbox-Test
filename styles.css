@@ -14,7 +14,7 @@
     justify-content: space-between;
     padding: 1.5rem;
   }
-  
+
   .section_1 {
   background-color: #ced6eb;
   display: flex; /* This property turns the element into a flex container, allowing its direct children (flex items) to be arranged according to the rules of the flexbox model. */
@@ -31,4 +31,15 @@
   gap: 1rem; /* Add some space between images */
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.footer-content {
+  padding: 1.5rem;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  text-align: center;
 }
