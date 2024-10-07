@@ -1,4 +1,21 @@
-.section_1 {
+* {
+  box-sizing: border-box; /* If you set box-sizing: border-box; on an element, padding and border are included in the width and height */
+  margin: 0;
+  }
+  
+  .navbar {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(
+      circle,
+      rgba(63, 94, 251, 1) 0%,
+      rgba(252, 70, 107, 1) 100%
+    );
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+  }
+  
+  .section_1 {
   background-color: #ced6eb;
   display: flex; /* This property turns the element into a flex container, allowing its direct children (flex items) to be arranged according to the rules of the flexbox model. */
   flex-direction: column;
